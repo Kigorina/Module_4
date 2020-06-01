@@ -1,0 +1,793 @@
+@font-face {
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-family: 'OpenSans';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-family: 'OpenSans';
+    font-weight: 600;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-family: 'OpenSans';
+    font-weight: 700;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+    font-family: 'OpenSans';
+    font-weight: 800;
+}
+
+@font-face {
+    src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+    font-family: 'OpenSans';
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'OpenSans-Regular', Arial, sans-serif;
+    
+}
+
+.header-wrapper {
+    background-color: #F6F2F2;
+      
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1249px;
+    min-height: 89px;
+    background-color: #000000;
+    margin: 0 auto;
+    
+}
+
+.site-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+
+.site-menu li {
+    list-style: none;
+    padding: 39px 30px 30px;
+    
+}
+
+.site-menu li:hover {
+    background-color: #FF3F40;;
+}
+
+.site-menu  a {
+    color: #E0E0E0;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.49px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*--------main intro part---------*/ 
+.block1-wrapper {
+    background-color: #F6F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .intro-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 102px 82px 95px 0px;
+
+
+}
+
+h1 {
+    color: #000000;
+    font-size: 60px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+
+p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: OpenSans, Arila, sans-serif;
+    font-weight: normal;
+    max-width: 544px;
+    margin: 36.5px 0px 63.48px;
+}
+
+
+.Contact {
+    width: 230px;
+    padding: 17px 0;
+    background-color: #FF2D2D;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.3195px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.intro-image {
+    width: 551px;
+    height: 356px;
+    margin-top: 103px;
+}
+
+/*--------Services---------------*/
+
+.block2-wrapper {
+    display: flex;
+    max-width: 1249px;
+    margin: 0 auto;
+}
+
+.service-wrapper {
+    max-width: 539px;
+    margin-right: 103px;
+
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 610px;
+    margin-top: 85px;
+}
+
+.service {
+    width: 50%;
+}
+
+.service p {
+    margin-top: 12px;
+    
+}
+
+.service h3 {
+    font-size: 24px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: 600; 
+
+}
+
+.service-heading {
+    font-size: 42px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0.422px;
+    text-transform: uppercase;
+    margin: 90px 0 54px;
+}
+
+.paragraf1,
+.paragraf3 {
+    margin-right: 20px;
+}
+
+.Learn {
+    color: #ff3f40;
+    font-size: 18px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 230px;
+    padding: 16px 0;
+    border: 2px solid #ff3f40;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.management::before {
+    content: url('../img/service-1.png');
+}
+
+.design::before {
+    content: url('../img/service-2.png');
+}
+
+.logo::before {
+    content: url('../img/service-3.png');
+}
+
+.animation::before {
+    content: url('../img/service-4.png');
+}
+
+.service h3::before {
+    display: block;
+    width: 41px;
+    height: 41px;
+    margin-bottom: 23px;
+}
+
+.service {
+    flex: 1 1 288px;
+    width: 288px;
+}
+
+/*------------------- Feature products----------- */
+.feature-products {
+    padding-top: 94px;
+    padding-bottom: 52px
+}
+
+.feature-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 67px;
+}
+
+.header-line {
+    background-color: #ECECEC;
+    border: none;
+    height: 3px;
+    width: 1251px;
+    margin: 0 auto;
+}
+
+.header-line2 {
+    background-color: #FF2D2D;
+    border: none;
+    height: 3px;
+    width: 134px;
+    margin: 0 auto;
+}
+
+.feature-heading {
+    padding-left: 14px;
+    margin-bottom: 16px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+
+}
+
+
+.feature-text {
+    max-width: 500px;
+    margin: 0 auto 30px;
+    opacity: 0.7;
+}
+
+.products-filter {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.products-filter a {
+    position: relative;
+    left: 45px;
+    color: #000;
+    margin-right: 55px;
+    font-size: 22px;
+    font-family: 'OpenSans SemiBold';
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: 0.7;
+    flex-wrap: wrap;
+}
+
+.products-filter a.active {
+    color: #ff2d2d;
+    opacity: 1;
+}
+
+.products-filter a:hover {
+    color: #ff2d2d;
+}
+
+.products-wrapper {
+    display: flex;
+    max-width: 1249px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex: 1 1 25%;
+    min-width: 250px;
+    max-width: 299px;
+    height: 291px;
+    margin-bottom: 18px;
+    object-fit: cover;
+    /* Свйоство object-fit позволяет управлять размером изображений как фоновым, то есть независимо от границ самого элемента img. Это новое свойство и не работает в старых браузерах. */
+}
+
+/* Team */
+.team {
+    padding-top: 60px;
+    padding-bottom: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1249px;
+    margin: 0 auto;
+    
+}
+
+.team-header {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 67px;
+}
+
+.team-heading {
+    margin-bottom: 23px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+}
+
+.team-text {
+    max-width: 460px;
+    margin-bottom: 30px;
+}
+
+.team-line {
+    background-color: #FF2D2D;
+    border: none;
+    height: 3px;
+    width: 134px;
+    margin: 0;
+}
+
+.team-members-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.main-member-photo {
+    width: 321px;
+    height: 458px;
+    margin-right: 65px;
+    background-color: #eb6d4a8f;
+}
+
+.main-member-info {
+    position: absolute;
+    max-width: 642px;
+    top: 5px;
+    left: 393px;
+}
+
+.main-member-info  h3 {
+    position: relative;
+    bottom: 5px;
+    font-size: 30px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.275265px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.member-social-links  a {
+    color: #000;
+    font-size: 18px;
+    font-family: OpenSans, Arial, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 30px;
+} 
+
+.member-social-links > a:hover {
+    text-decoration: underline;
+}
+
+.main-member-info > p {
+    margin-bottom: 34px;
+}
+
+.members-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    position: relative;
+    margin-top: 18px;
+    margin-right: 18px;
+}
+
+.member > h3 {
+    visibility: hidden;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 37px;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.member:hover > h3 {
+    visibility: visible;
+}
+
+.member-photo {
+    display: block;
+    width: 197px;
+    height: 214px;
+    background-color: #d4dce680;
+}
+
+/* Subscribe */
+.subscribe {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    background-color: #2c2c2c;
+    padding-top: 124px;
+    padding-bottom: 140px;
+}
+
+.subscribe-wrapper {
+    display: block;
+    max-width: 1249px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subscribe-heading {
+    color: #fff;
+    opacity: 0.8;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.subscribe-wrapper  p {
+    color: #fff;
+    opacity: 0.8;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-form > .email-input {
+    color: grey;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    flex: 0 1 521px;
+    max-width: 521px;
+    min-height: 79px;
+    padding: 0;
+    padding-left: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 22px;
+}
+
+.subscribe-form > .subscribe-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'OpenSans Bold';
+    width: 214px;
+    min-height: 79px;
+    background-color: #ff2d2d;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Feedback */
+.feedback-contacts-wrapper {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 92px;
+    padding-bottom: 110px;
+    width: 1579px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+.feedback {
+    max-width: 753px;
+    margin-right: 104px;
+    
+}
+
+.feedback h2 {
+    margin-bottom: 34px;
+}
+
+.feedback p {
+    max-width: 752px;
+}
+
+.feedback-line {
+    background-color: #FF2D2D;
+    border: none;
+    height: 3px;
+    width: 134px;
+    margin: 0;
+    margin-bottom: 73px;
+}
+
+.feedback-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feedback-form  div {
+    color: grey;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 54px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f3f3f3;  
+    margin-bottom: 45px;
+}
+
+.feedback-form > .name-input,
+.feedback-form > .email-input {
+    width: 339px;
+    max-width: 339px;
+    height: 69px;
+}
+
+.feedback-form > .name-input {
+    margin-right: 53px;
+}
+
+.feedback-form > .message-input {
+    resize: none;
+    font-size: 16px;
+    font-family: 'OpenSans Regular';
+    width: 100%;
+    max-width: 731px;
+    height: 249px;
+    box-sizing: border-box;
+    padding-top: 35px;
+    padding-left: 54px;
+    padding-bottom: 150px;
+    margin-bottom: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f3f3f3;  
+}
+
+.feedback-form > .send-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 731px;
+    max-width: 731px;
+    height: 72px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'OpenSans Bold';
+    background-color: #ff2d2d;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+} 
+
+/* Contacts */
+
+.contacts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    width: 100%;
+    max-width: 750px;
+    padding-left: 81px;
+    padding-top: 113px;
+    padding-bottom: 113px;
+}
+/*.contacts {
+    position: relative;
+    color: #e0e0e0;
+    background-color: #2D2D2D;
+    padding: 125px 78px;
+}*/
+
+.contacts  h2 {
+    color: #e0e0e0;
+    font-size: 18px;
+    max-width: 180px;
+}
+
+.contacts  h2 {
+    margin-bottom: 13px;
+}
+
+.contacts-address {
+    line-height: 28px;
+}
+
+.contacts-address  p {
+    margin-bottom: 17px;
+    color: #e0e0e0;
+}
+
+/*.contacts-background {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 481px;
+    background-color: #2c2c2c;
+    clip-path: polygon(1000px 0, 100% 0, 100% 100%, 1000px 100%);
+    /* Свойство clip-path позволяет наложить на элемент маску, которая может визуально скрыть части этого элемента. Макса может быть самой разной формы, в данном случае это прямоугольник. */
+}
+
+/*.contacts::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    /* Свойство transform позволяет изменять внешний вид элементов. Значение translate сдвигает элемент по осям X, Y или по обеим сразу. Его особенность - проценты расчитываются не от размеров родителя, а от самого элемента. При этом такой сдвинутый элемент не участвует в потоке. */
+    /*width: 100vw;
+    height: 481px;
+    background-color: #2c2c2c;
+}
+/* Второй способ сделать темную подложку - создать пустой псевдоэлемент, стилизовать его и тоже исопльзовать позиционирование. Этот подход лучше тем, что вам не нужно изменять HTML. Сейчас работает этот способ, поэтому элемент в HTML отключен. */
+
+/* Footer */
+footer {
+    background-color: #2c2c2c;
+    padding: 0 1vw;
+}
+
+.footer-wrapper {
+    box-sizing: border-box;
+    padding: 19px 0 0;
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 110px;
+    background-color: #2c2c2c;
+}
+
+.footer-wrapper p {
+    color: #e0e0e0;
+}
+
+.footer-social-links  a:not(:last-child) {
+    margin-right: 18px;
+}
+
+/*Responsive*/
+
+
+@media screen and (max-width: 750px) {
+    .block1-wrapper {
+        flex-wrap: wrap;
+    }
+    .intro-wrapper {
+        flex-wrap: wrap;
+        padding-left: 20px;
+        word-break: break-word;
+    }
+
+    .block2-wrapper {
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+
+    .products-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .team-header {
+        padding-left: 20px;
+    }
+    .team-members-wrapper {
+        padding-left: 20px;
+    }
+
+    .subscribe-wrapper {
+        padding-left: 20px;
+    }
+
+    .subscrive-form {
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+
+    .feedback-contacts-wrapper {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .feedback {
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+
+    .contacts {
+        margin-top: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 610px) {
+    
+    .service-list {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
